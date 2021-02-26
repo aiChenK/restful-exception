@@ -1,0 +1,17 @@
+{
+    "name": "aichenk/restful-exception",
+    "type": "library",
+    "description": "restful常用异常类",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiChenK",
+            "email": "aichenk@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RestfulException\\": "src/"
+        }
+    }
+}
