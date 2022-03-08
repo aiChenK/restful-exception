@@ -8,4 +8,9 @@
 
         composer require aichenk/restful-exception
 
+## 异常说明
+![2022/03/20220308235259](https://gitee.com/aiChenK/img/raw/master/2022/03/20220308235259.png)
+
 ## 更新日志
+2022-03-08 - 1.1.0
+- 补充多种异常类，补充继承关系（如上图）

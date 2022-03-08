@@ -4,7 +4,7 @@ namespace RestfulException;
 
 use Throwable;
 
-class HttpException extends AbstractException
+class HttpException extends ServerException
 {
     protected $httpCode = 500;
 

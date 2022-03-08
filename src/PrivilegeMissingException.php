@@ -4,7 +4,7 @@ namespace RestfulException;
 
 use Throwable;
 
-class PrivilegeMissingException extends AbstractException
+class PrivilegeMissingException extends UnauthorizedException
 {
     protected $httpCode = 403;
 

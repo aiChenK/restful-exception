@@ -4,7 +4,7 @@ namespace RestfulException;
 
 use Throwable;
 
-class UnauthorizedException extends AbstractException
+class UnauthorizedException extends ClientException
 {
     protected $httpCode = 401;
 

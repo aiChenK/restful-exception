@@ -4,7 +4,7 @@ namespace RestfulException;
 
 use Throwable;
 
-class ClassNotFoundException extends AbstractException
+class ClassNotFoundException extends ServerException
 {
     protected $httpCode = 500;
 

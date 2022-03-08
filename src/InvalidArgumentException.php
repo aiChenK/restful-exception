@@ -4,7 +4,7 @@ namespace RestfulException;
 
 use Throwable;
 
-class InvalidArgumentException extends AbstractException
+class InvalidArgumentException extends ValidateException
 {
     protected $httpCode = 400;
 
